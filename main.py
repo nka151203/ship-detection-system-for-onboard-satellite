@@ -10,6 +10,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 INPUT_IMG_DIR = os.path.join(BASE_DIR, "input_image")
 OUTPUT_IMG_DIR = os.path.join(BASE_DIR, "output_image")
+os.makedirs(OUTPUT_IMG_DIR, exist_ok=True)
 TRANSFER_IMG_DIR = os.path.join(BASE_DIR, "transfer_image")
 
 def scan_input(input_dir = INPUT_IMG_DIR):
