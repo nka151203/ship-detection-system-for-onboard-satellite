@@ -21,7 +21,7 @@ Ground-truth labels are provided as **pixel-wise masks**, which were preprocesse
 
 * Determine the smallest and largest pixel indices horizontally (`xmin`, `xmax`) and vertically (`ymin`, `ymax`).
 * Construct the bounding box from `(xmin-1, ymin-1)` to `(xmax+1, ymax+1)`.
-* Skip the ±1 adjustment if the box touches the image border.
+* Skip the ±1 adjustment if the box touches the image border. \
 ![alt text](yoloformat.png)
 
 
